@@ -82,13 +82,13 @@ function RegisterMenu()
         local option = tbl[index]
         local keepOption = true
 
-        if option.name == 'Consumable Emotes' and not Config.enableConsumableEmotes then
+        if option?.type == 'consumable_emotes' and not Config.enableConsumableEmotes then
             keepOption = false
-        elseif option.name == 'Synchronized Emotes' and not Config.enableSynchronizedEmotes then
+        elseif option?.type == 'synchronized_emotes' and not Config.enableSynchronizedEmotes then
             keepOption = false
-        elseif option.name == 'Synchronized Dance Emotes' and not Config.enableSynchronizedEmotes then
+        elseif option?.type == 'synchronized_dance_emotes' and not Config.enableSynchronizedEmotes then
             keepOption = false
-        elseif option.name == 'Animal Emotes' and not Config.enableAnimalEmotes then
+        elseif option?.type == 'animal_emotes' and not Config.enableAnimalEmotes then
             keepOption = false
         end
 

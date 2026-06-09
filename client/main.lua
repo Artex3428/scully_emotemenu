@@ -1,5 +1,3 @@
-lib.locale()
-
 KVP = require 'client.modules.kvp'
 Utils = require 'shared.modules.utils'
 Config = lib.load('shared.data.config')
@@ -678,6 +676,9 @@ exports('isLimited', IsLimited)
 
 local IsControlJustPressed = IsControlJustPressed
 
+---Handles the emote request interface
+---@param label string
+---@param cb function
 local function emoteRequest(label, cb)
     PlaySoundFrontend(-1, 'NAV', 'HUD_AMMO_SHOP_SOUNDSET', false)
 
