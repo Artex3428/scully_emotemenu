@@ -5,7 +5,11 @@
 
 # Support:
 
-For support join my discord here: https://discord.gg/scully
+For community support join my discord here: https://discord.gg/scully
+
+# Convert Your Emotes
+
+You can convert your emotes from dpemotes (including forks of dpemotes) using the [emote conversion website](https://emotes.scullys-development.net/).
 
 # Installation Instructions:
 
