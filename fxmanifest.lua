@@ -50,7 +50,6 @@ files {
     'shared/modules/utils.lua',
     'client/data/ped_types.lua',
     'client/data/scenario_models.lua',
-    'client/modules/handsup.lua',
     'client/modules/kvp.lua',
     'client/modules/placement.lua',
     'client/modules/point.lua',
