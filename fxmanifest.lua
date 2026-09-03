@@ -54,8 +54,6 @@ files {
     'client/modules/placement.lua',
     'client/modules/point.lua',
     'client/modules/preview.lua',
-    'client/modules/ragdoll.lua',
-    'client/modules/stance.lua'
 }
 
 data_file 'DLC_ITYP_REQUEST' 'bzzz_foodpack.ytyp'

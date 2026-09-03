@@ -23,10 +23,5 @@ return {
     enableEmotePlacement = GetConvar('scully_emotemenu:enableEmotePlacement', 'true') == 'true',
     enableAutoPtfx = GetConvar('scully_emotemenu:enableAutoPtfx', 'true') == 'true',
     ptfxKey = GetConvar('scully_emotemenu:ptfxKey', 'G'),
-    handsUpKey = GetConvar('scully_emotemenu:handsUpKey', 'H'),
-    handsUpIsToggle = GetConvar('scully_emotemenu:handsUpIsToggle', 'false') == 'true',
-    stanceKey = GetConvar('scully_emotemenu:stanceKey', 'LCONTROL'),
-    useCrouchOnly = GetConvar('scully_emotemenu:useCrouchOnly', 'false') == 'true',
     pointKey = GetConvar('scully_emotemenu:pointKey', 'B'),
-    ragdollKey = GetConvar('scully_emotemenu:ragdollKey', 'U')
 }
