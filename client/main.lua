@@ -1202,7 +1202,4 @@ AddEventHandler('CEventPlayerCollisionWithPed', function()
     end
 end)
 
-if Config.handsUpKey ~= '' then require 'client.modules.handsup' end
-if Config.stanceKey ~= '' then require 'client.modules.stance' end
 if Config.pointKey ~= '' then require 'client.modules.point' end
-if Config.ragdollKey ~= '' then require 'client.modules.ragdoll' end
